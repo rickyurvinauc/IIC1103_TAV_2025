@@ -1,0 +1,6 @@
+Python es un lenguaje de programación popular.
+Es utilizado para desarrollo web, análisis de datos, y más.
+Este archivo contiene varias líneas para practicar.
+La recursión es un concepto importante en Python.
+Puedes utilizar este archivo para contar las líneas.
+Puedes modificarlo, agregar más contenido, o leerlo con Python.
