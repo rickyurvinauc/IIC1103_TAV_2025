@@ -35,7 +35,7 @@ e3.cambiar_estado()
 # crea una funcion que reciba un curso y guarde en un archivo los nombres de los estudiantes que aprobaron
 
 def guardar_aprobados(curso):
-    archivo = open("aprobados.txt", "a")
+    archivo = open("aprobados.txt","a")
     for estudiante in curso.estudiantes:
         if estudiante.estado:
             texto = f"{estudiante.nombre}\n"
