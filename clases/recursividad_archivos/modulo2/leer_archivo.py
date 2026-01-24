@@ -5,3 +5,6 @@ print(len(lista))
 
 for linea in lista:
     print(linea)
+
+for linea in lista:
+    print(linea.strip())

@@ -32,8 +32,15 @@ class Filmoteca:
     def __str__(self):
         return "Filmoteca con " + str(len(self.peliculas)) + " películas"
 
-    def agregar_pelicula(self, pelicula):
-        self.peliculas.append(pelicula)
+    def agregar_pelicula(self, pelicula): # agrega la pelicula si no existe en la lista
+        encontrada = False
+        for peli in self.peliculas:
+            if peli.nombre == pelicula.nombre:
+                encontrada = True
+        
+        if encontrada == False:
+            self.peliculas.append(pelicula)
+
 
     def contar_por_anio(self):
         conteo = []

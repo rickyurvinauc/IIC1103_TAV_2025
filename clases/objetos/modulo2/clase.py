@@ -31,10 +31,10 @@ p1.agregar_puntaje(5)
 p1.agregar_puntaje(4)
 p1.agregar_puntaje(3)
 
-p2 = Pelicula("Harry Potter 3", 2001, "Ficcion","Una pelicula de magia")
-p2.agregar_puntaje(1)
-p2.agregar_puntaje(2)
+# p2 = Pelicula("Harry Potter 3", 2001, "Ficcion","Una pelicula de magia")
+# p2.agregar_puntaje(1)
+# p2.agregar_puntaje(2)
 
-print(p1.es_mejor_que(p2))
+# print(p1.es_mejor_que(p2))
 
-print(p1)
+# print(p1)
